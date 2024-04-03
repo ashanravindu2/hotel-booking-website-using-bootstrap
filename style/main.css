@@ -1,0 +1,10 @@
+#hotelName{
+    
+    display: none;
+    text-align: center;
+}
+#hotelName>h1{
+    margin-top: 5%;
+    font-weight: bolder;
+    color: blue;
+}

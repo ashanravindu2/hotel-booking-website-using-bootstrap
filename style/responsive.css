@@ -1,0 +1,11 @@
+/*Laptop= 1440px*/
+@media all and (max-width: 768px) {
+   #hotelName{
+    display: contents;
+    text-align: center;
+    
+}
+       
+    }
+
+    
