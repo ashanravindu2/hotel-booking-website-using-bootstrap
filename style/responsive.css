@@ -1,3 +1,8 @@
+body{
+    margin: 0px;
+}
+
+
 /*Laptop= 1440px*/
 @media all and (max-width: 768px) {
    #hotelName{
@@ -8,4 +13,37 @@
        
     }
 
-    
+#trending-section{
+
+    justify-content: center;
+  
+}
+
+#offer{
+  
+    align-items: center;
+    margin-top: 40px;
+}
+#offer-card{
+    margin-top: 2%;
+}
+.browser-card{
+    margin-top:2% ;
+}
+#quick-plan-card{
+    margin-top: 2%;
+    display: flex;
+    text-align: center;
+}
+
+#quick-plan-card>div>img{
+    width: 90%;
+    object-fit: cover;
+}
+
+#location-card{
+  width: 100%;
+  height: 20%;
+  object-fit: cover;
+}
+

@@ -1,0 +1,64 @@
+/* Fonts */
+
+
+/* footer
+============================================ */
+footer {
+    background: #04111E;
+    color: #ffffff;
+}
+
+footer section {
+    position: relative;
+    bottom: 15vh;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    position: relative;
+    bottom: 0;
+    margin: 0;
+    padding-bottom: 35px;
+}
+
+footer h4 {
+    padding-bottom: 5vh;
+}
+
+footer > svg {
+    position: relative;
+    bottom: 200px;
+    width: 100%;
+}
+
+/* waves animation */
+.wave {
+    animation: wave 3s linear;
+    animation-iteration-count: infinite;
+    fill: #04111E;
+}
+
+#wave2 {
+    animation-duration: 5s;
+    animation-direction: reverse;
+    opacity: .6;
+    fill: #FAA307;
+}
+
+#wave3 {
+    animation-duration: 7s;
+    opacity: .3;
+    fill: #ffffff;
+}
+
+@keyframes wave {
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+

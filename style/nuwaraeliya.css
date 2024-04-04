@@ -1,0 +1,12 @@
+#nuwara-card{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+   
+}
+
+
+img.card-img-top{
+    width: 50%;
+    object-fit: cover;
+}

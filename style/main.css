@@ -8,3 +8,16 @@
     font-weight: bolder;
     color: blue;
 }
+footer{
+    background: #04111E;
+    color: #ffffff;
+    margin-top: 12%;
+}
+
+.img_gray {
+    filter: grayscale(1);
+}
+
+.img_gray:hover {
+    filter: none;
+}
