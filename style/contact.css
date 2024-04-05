@@ -1,0 +1,46 @@
+#backgroundimg{
+
+}
+
+
+#backgroundimg>img{
+    background-image: url('images/contact.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+    width: 100%;    z-index: -1;
+    object-fit: cover;
+    filter: blur(2px);
+}
+
+.navbar{
+position: fixed;
+width: 100%;
+}
+
+.form-section{
+    margin-top: -42%;
+    position: relative;
+    margin-left: 12%;
+    margin-right: 12%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2%;
+    border-radius: 10px;
+    color: whitesmoke;
+  
+}
+
+#submit-btn{
+    margin-top: 5%;
+    width: 20%;
+
+}
+
+#submit-btn:hover{
+    transition: 0.5s;
+    width: 25%;
+
+}

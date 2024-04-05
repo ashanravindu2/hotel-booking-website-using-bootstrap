@@ -6,6 +6,7 @@
 footer {
     background: #04111E;
     color: #ffffff;
+    margin-top: 12%;
 }
 
 footer section {
@@ -30,6 +31,7 @@ footer h4 {
 }
 
 footer > svg {
+  
     position: relative;
     bottom: 200px;
     width: 100%;
